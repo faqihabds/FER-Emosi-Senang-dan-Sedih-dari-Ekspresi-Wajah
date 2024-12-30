@@ -27,7 +27,10 @@
   <p align="center">
     Penggunaan Teknologi FER dalam Mengidentifikasi Emosi Senang dan Sedih dari Ekspresi Wajah
   </p>
+</div>
 
+<div>
+<h3 align="center">Oleh: </h3>
   <p align="center">
     Muhammad Faqih A - 1301213056
   </p>
