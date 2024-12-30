@@ -29,9 +29,13 @@
   </p>
 
   <p align="center">
-    Muhammad Faqih A 1301213056
-    Muhammad Antarez Q 1301210572
-    Dian Syafilla 1301213229
+    Muhammad Faqih A - 1301213056
+  </p>
+  <p align="center">
+    Muhammad Antarez Q - 1301210572
+  </p>
+  <p align="center">
+    Dian Syafilla - 1301213229
   </p>
 </div>
 
