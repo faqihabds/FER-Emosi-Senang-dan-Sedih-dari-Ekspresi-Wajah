@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fungi Classification</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <style>
+    .jumbotron.bg-mint {
+        background-color: #98FF98; /* This is a mint green color */
+    }
+  </style>
+  <h1 class="jumbotron bg-mint text-center">Penggunaan Teknologi FER dalam Mengidentifikasi Emosi Senang dan Sedih dari Ekspresi Wajah</h1>
+  <br><br>
+
+  <form class="form-horizontal" action="/submit" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+      <label for="file">Upload an Image or Video:</label>
+      <input type="file" class="form-control" name="my_file" id="file" accept="image/*,video/*" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+  {% if prediction %}
+    <h2>Prediction: {{ prediction }}</h2>
+    <img src="{{ img_path }}" alt="Processed Image" style="max-width: 100%;">
+  {% elif video_path %}
+    <h2>Processed Video:</h2>
+    <video controls style="max-width: 100%;">
+      <source src="{{ video_path }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  {% endif %}
+
+</div>
+
+</body>
+</html>
