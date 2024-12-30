@@ -83,6 +83,7 @@ Hasil Predik:
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+Membuat aplikasi FER serderhana berbasis web dengan menggunakan framework flask untuk mengidentifikasi emosi senang dan sedih dari ekspresi wajah.
 
 ### Arsitektur Model
 
