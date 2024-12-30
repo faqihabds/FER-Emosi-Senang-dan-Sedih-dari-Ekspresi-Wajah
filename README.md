@@ -62,50 +62,49 @@
 ## ScreenShots
 
 <div align="center">
-  <img src="Screenshot 2024-12-30 200031.png" alt="Landing Page" width="400" />
+  <img src="Screenshot 2024-12-30 200031.png" width="400" />
 </div>
 <div align="center">
-  <img src="images/login.png" alt="Login Page" width="400" />
+  <img src="images/login.png" width="400" />
 </div>
-User:
+Hasil Predik:
 <div align="center">
-  <img src="images/login.png" alt="Login Page" width="400" />
-  <img src="images/dashboard user.png" alt="User Dashboard" width="400" />
-</div>
-<div align="center">
-  <img src="images/download & playback.png" alt="Download & Playback" width="400" />
-  <img src="images/create playlist.png" alt="Create Playlist" width="400" />
+  <img src="Screenshot 2024-12-30 202642.png"  width="400" />
+  <img src="Screenshot 2024-12-30 202701.png" " width="400" />
 </div>
 <div align="center">
-  <img src="images/play playlist.png" alt="Play Playlist" width="400" />
+  <img src="Screenshot 2024-12-30 202738.png" width="400" />
+  <img src="Screenshot 2024-12-30 202721.png" width="400" />
 </div>
-Admin:
 <div align="center">
-  <img src="images/dashboard admin.png" alt="Admin Dashboard" width="400" />
-  <img src="images/add song.png" alt="Add Song" width="400" />
+  <img src="Screenshot 2024-12-30 2025110.png" width="400" />
+  <img src="Screenshot 2024-12-30 202510.png" width="400" />
 </div>
-
-<div align="center">
-  <img src="images/edit song.png" alt="Edit Song" width="400" />
-  <img src="images/delete song.png" alt="Delete Song" width="400" />
-</div>
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Aplikasi Rizumu dibangun dengan menggunakan sejumlah teknologi modern, termasuk Laravel sebagai framework utama, serta HTML, CSS, dan JavaScript untuk pengembangan antarmuka pengguna yang responsif dan menarik. Bagian logika aplikasi ditangani oleh bahasa pemrograman PHP, dengan MySQL sebagai basis data utama untuk menyimpan dan mengelola informasi terkait musik, pengguna, dan lainnya. Dengan menggunakan kombinasi teknologi ini, kami berusaha memberikan pengalaman pemutar musik yang memuaskan dan dapat diandalkan kepada pengguna kami.
+### Arsitektur Model
+
+Model Inception-ResNet dimodifikasi dengan layer tambahan seperti pooling global, batch normalization, dan dropout.
+
+### Dataset FER - 2013
+Dataset ini terdiri dari lebih dari 12.000 data untuk train dan 3.000 untuk validasi untuk gambar wajah dalam dua kelas emosi, yaitu "happy" dan "sad".
+
+### Hasil Training
+* accuracy: 0.9772
+* loss: 0.0637
+* val_accuracy: 0.8871
+* val_loss: 0.4976
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ### Built With
-* Laravel
-* Javascript, blade, HTML, CSS
-* MySQL
+* Flask
+* Python
+* Tensorflow
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
