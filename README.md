@@ -20,7 +20,7 @@
 -->
 <br />
 <div align="center">
-  <img src="images/rizumu-logo.png" alt="Logo" width="80" height="80">
+  <!-- <img src="images/rizumu-logo.png" alt="Logo" width="80" height="80"> -->
 
 <h3 align="center">FER : Emosi Senang dan Sedih dari Ekspresi Wajah</h3>
 
@@ -64,9 +64,7 @@
 <div align="center">
   <img src="Screenshot 2024-12-30 200031.png" width="400" />
 </div>
-<div align="center">
-  <img src="images/login.png" width="400" />
-</div>
+
 Hasil Predik:
 <div align="center">
   <img src="Screenshot 2024-12-30 202642.png"  width="400" />
